@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login Panel</title>
+  <link rel="stylesheet" href="/Logs/admin/admin.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="myform">
+      <form method="POST" action="/Logs/admin/admin.php">
+        <h2>ADMIN LOGIN</h2>
+        <input type="text" name="adminName" placeholder="Admin Name">
+        <input type="password" name="password" placeholder="Password">
+        <button type="button" onclick="redirectToAdminDash()" class="login-button">
+          LOGIN
+        </button>
+      </form>
+    </div>
+    <div class="image">
+      <img src="/Administrator/henesy.jfif">
+    </div>
+  </div>
+
+  <script>
+    function redirectToAdminDash() {
+      window.location.href = "/Administrator/admindash.html";
+    }
+  </script>
+
+</body>
+</html>
