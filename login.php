@@ -82,6 +82,12 @@ if(User::loggedIn()){
 											<center><a href='login.php?attempt=1'><div class='badge-header'>Admin</div></a></center> 
 
 										</center> 
+										<center>
+											<div class='img-login-icons'>
+												<img  class='img-responsive' src='images/3678412 - doctor medical care medical help stethoscope.png' alt='login as a doctor' />
+											</div>
+											<center><a href='login.php?attempt=2'><div class='badge-header'>Laboratorist</div></a></center> 
+										</center>
 									</div> 
 									<div class='col-md-4'> 
 
@@ -90,6 +96,12 @@ if(User::loggedIn()){
 												<img  class='img-responsive' src='images/3678412 - doctor medical care medical help stethoscope.png' alt='login as a doctor' />
 											</div>
 											<center><a href='login.php?attempt=2'><div class='badge-header'>Doctor</div></a></center> 
+										</center>
+										<center>
+											<div class='img-login-icons'>
+												<img  class='img-responsive' src='images/3678412 - doctor medical care medical help stethoscope.png' alt='login as a doctor' />
+											</div>
+											<center><a href='login.php?attempt=2'><div class='badge-header'>Staff</div></a></center> 
 										</center>
 									</div> 
 									
@@ -101,6 +113,14 @@ if(User::loggedIn()){
 											</div>
 											<center><a href='login-patient.php'><div class='badge-header'>Patient</div></a></center> 
 										</center>
+										<center>
+											<div class='img-login-icons'>
+												<img  class='img-responsive' src='images/money1.png' alt='login as a doctor' />
+											</div>
+											<center><a href='login.php?attempt=1'><div class='badge-header'>Finance</div></a></center> 
+
+										</center> 
+										
 									</div> 
 									
 								</div> 
@@ -108,6 +128,7 @@ if(User::loggedIn()){
 							<div class='col-md-2'></div>
 							<?php } ?> 
 						</div><!-- end of the content area --> 
+						
 					</div> 
 				</div>  
 			</div> 
