@@ -16,7 +16,7 @@ if(isset($action)) {
 		if(isset($_GET['token'])){
 			$doc = $_GET['token'];
 			Doctor::delete($doc);
-			Config::redir("doctors-record.php?message=Doctor has been removed!"); 
+			Config::redir("doctors-record.php?message=Doctor has been removed successfuly!"); 
 		} else {
 			echo "Invalid token for removing doctor.";
 		}

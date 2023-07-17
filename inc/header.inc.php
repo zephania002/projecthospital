@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.php" class="navbar-brand"><img src='images/hospital-logo.png' class='img-responsive img-logo' style="height: 50px; margin-bottom: 100px;" /></a>
+            <a href="index.php" class="navbar-brand"><img src='images/adroit.png' class='img-responsive img-logo' style="height: 50px; margin-bottom: 100px;" /></a>
         </div>
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -18,7 +18,7 @@
             <ul class="nav navbar-nav navbar-right">
 			
                 <?php if(!User::loggedIn() && !Patient::isPatientIn() ) {?> 
-               <li><a href='login.php'>Login</a></li>
+               <li><a href='login.php'>Back To Login</a></li>
                <?php } else {
                 ?> 
 

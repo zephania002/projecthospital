@@ -28,7 +28,7 @@ if(User::loggedIn()){
 				<li><a href='add-doctors.php'><img class='sidebar-menu-icon' src='images/ic_group_add_white.png'  /> Add Doctors</a></li>
 				<li><a href='doctors-record.php'><img class='sidebar-menu-icon' src='images/ic_group_add_white.png'  /> Doctors' Records</a></li>
 				<li><a href='appointments.php'><img class='sidebar-menu-icon' src='images/ic_alarm_white_24dp.png'  /> Appointment</a></li>
-				<!--<li><a href='enquiry.php'><img class='sidebar-menu-icon' src='images/ic_help_outline_white_24dp.png'  /> Enquiry</a></li>-->
+				<li><a href='enquiry.php'><img class='sidebar-menu-icon' src='images/ic_help_outline_white_24dp.png'  /> Enquiry</a></li>
 				<li><a href='add-outbreak.php'><img class='sidebar-menu-icon' src='images/ic_group_work_white_24dp.png'  /> Add Outbreaks</a></li>
 				<li><a href='outbreaks.php'><img class='sidebar-menu-icon' src='images/ic_group_work_white_24dp.png'  /> Likely Outbreaks</a></li>
 				<li><a href='hiv.php'><img class='sidebar-menu-icon' src='images/ic_error_outline_white_24dp.png'  /> HIV</a></li>

@@ -17,7 +17,7 @@ require_once "importance.php";
 			<div class='col-md-10'>
 				<div class='content-area'> 
 				<div class='content-header'> 
-					Patient Data <small>this is your data</small>
+					Patient Data <small>This is your data</small>
 				</div>
 				<div class='content-body'> 
 					<div class='form-holder'> 

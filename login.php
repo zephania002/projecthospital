@@ -101,7 +101,7 @@ if(User::loggedIn()){
 											<div class='img-login-icons'>
 												<img  class='img-responsive' src='images/3678412 - doctor medical care medical help stethoscope.png' alt='login as a doctor' />
 											</div>
-											<center><a href='login.php?attempt=2'><div class='badge-header'>Staff</div></a></center> 
+											<center><a href='login.php?attempt=2'><div class='badge-header'>Pharmacist</div></a></center> 
 										</center>
 									</div> 
 									
