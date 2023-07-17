@@ -19,6 +19,7 @@
 			
                 <?php if(!User::loggedIn() && !Patient::isPatientIn() ) {?> 
                <li><a href='login.php'>Back To Login</a></li>
+               <li><a href='home/home.html'>Back To Home</a></li>
                <?php } else {
                 ?> 
 
