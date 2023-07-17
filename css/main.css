@@ -39,7 +39,7 @@ body{
 }
 
 .content-body{
-	background: url("../images/how-to-find-a-doctor-in-croatia.jpg") #fff;
+	background: url("../images/back.png") #fff;
 	background-size: cover; 
 	background-repeat: none; 
 	background-position: center center; 
@@ -181,7 +181,7 @@ body{
 	font-size: 15px;
 }
 
-img[src='images/doc-background-one.png'],
-img[src='images/doc-background-two-right.png']{
+img[src='images/back.png'],
+img[src='images/back.png']{
 	margin-top: 50px;
 }
